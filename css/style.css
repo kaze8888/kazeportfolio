@@ -1,0 +1,243 @@
+@charset "UTF-8";
+
+
+html{
+font-size: 100%;
+
+}
+
+
+
+#top-h1{
+  font-size: 1200%;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align: center;
+  margin-top: 10%;
+}
+
+
+
+.top-nav{
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin-right: 50px;
+  margin-top: 40px;
+  font-size: 1.4rem;
+  font-family: 'Gowun Dodum', sans-serif;
+
+}
+
+#top-p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.0rem;
+  margin-top: -50px;
+  margin-left: 160px;
+
+}
+
+.top-nav li{
+  margin-left: 36px;
+}
+.top-nav a{
+  color: #ffadad;
+}
+.top-nav a:hover{
+  color: #25b7c0;
+}
+
+
+
+a{
+  text-decoration: none;
+}
+
+.big-pic{
+
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  /*height: 900px;*/
+
+}
+#home{
+  margin-top: 85px;
+  background-image: url(../img/mountain.jpg);
+  min-height:80vh;
+
+
+}
+
+
+
+/*About*/
+
+
+#nav{
+  margin-top: 85px;
+}
+
+
+#About-h1{
+
+  font-family: 'M PLUS 1p', sans-serif;
+  text-align: center;
+  font-size: 400%;
+  font-family: 'STIX Two Text', serif;
+  color: #c0c0c0;
+  padding: 0.5em 4em;
+  margin: 1.5em 0;
+  background: #e0ffef;
+}
+
+#logo{
+
+  max-width: 24%;
+
+}
+
+
+.About-nav{
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin-right: 40px;
+  margin-top: 40px;
+  font-size: 1.4rem;
+  font-family: 'Gowun Dodum', sans-serif;
+
+}
+
+.About-nav li{
+  margin-left: 36px;
+}
+.About-nav a{
+  color: #c0c0c0;
+}
+.About-nav a:hover{
+  color: #25b7c0;
+}
+
+
+.About-main{
+
+  display: flex;
+  align-items: center;
+  margin-left: 400px;
+
+}
+.RC-before{
+  font-family: 'Noto Serif JP', serif;
+  margin-left: 200px;
+  margin-top: -50px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+}
+.Recmargin-main{
+margin-top: 40px;
+font-size: 1.20rem;
+}
+#Recmargin-p{
+  margin-top: 35px;
+}
+
+
+
+
+
+/*Gallery*/
+#Gallery-h1{
+  font-family: 'M PLUS 1p', sans-serif;
+  text-align: center;
+  font-size: 400%;
+  font-family: 'STIX Two Text', serif;
+  color: #c0c0c0;
+  padding: 0.5em 4em;
+  margin: 2em 0;
+  background: #f2e5ff;
+
+
+
+}
+
+#Gallery-p{
+  font-family: 'Noto Serif JP', serif;
+  margin-top: -50px;
+  margin-top: 40px;
+  font-size: 1.20rem;
+  text-align: center;
+
+}
+
+.Gallery-flex{
+  margin-top:60px;
+  text-align : center;
+  width: 60%;
+  margin-left: 20%;
+}
+
+
+
+
+
+
+@media(max-width: 600px){
+/*Home*/
+
+
+/*About*/
+
+#About-h1{
+  text-align: center;
+  padding: 0.5em 2em;
+    margin: 1em 0;
+    background: #e0ffef;
+}
+
+
+#logo{
+
+  max-width: 45%;
+}
+
+.About-main{
+
+  margin-bottom: 40px;
+  flex-direction: column;
+margin-left: 0px;
+}
+
+
+.RC-before{
+
+  margin-left: 0px;
+  margin-top: 30px;
+
+
+}
+
+
+#Recmargin-p{
+  font-size: 14px;
+  margin-top: 15px;
+
+}
+
+#Gallery-h1{
+  font-family: 'M PLUS 1p', sans-serif;
+  align-items: center;
+  font-size: 400%;
+  font-family: 'STIX Two Text', serif;
+  color: #c0c0c0;
+  padding: 0.5em 2em;
+  margin: 2em 0;
+  background: #f2e5ff;
+
+
+
+}
+
+
+}
